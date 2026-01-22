@@ -47,7 +47,7 @@ const RecentProjects = () => {
             key={item.id}
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
           >
-            <PinContainer title={item.title}>
+            <PinContainer title={item.short_title}>
               <div
                 onClick={() => setPreviewImage(item.img)}
                 className="relative flex cursor-pointer items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 group"
